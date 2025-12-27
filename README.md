@@ -79,11 +79,10 @@ All models have been evaluated across four datasets using comprehensive metrics:
 
 - **Multiple Architectures**: Delta TF-IDF, DistilBERT, RoBERTa, Gemma-7B, DeBERTa, GPT-OSS 20B
 - **Enhancement Techniques**: 
-  - SMOTE for handling class imbalance
+  - SMOTE & Weighted Loss for handling class imbalance
   - POS (Part-of-Speech) tagging features
-  - Class weight balancing
+  - SMOTE & Weighted Loss & POS Integration
   - Text Data Augmentation (TDA)
-  - LoRA fine-tuning (Gemma)
 - **Cross-Validation**: 10-fold CV for Delta TF-IDF
 - **Multiple Datasets**: Hate Corpus, Gab & Reddit, Stormfront, and merged datasets
 
