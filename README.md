@@ -11,6 +11,8 @@ src/
 ├── distilbert/                      # DistilBERT training scripts
 ├── gemma/                           # Gemma training scripts
 ├── roberta/                         # RoBERTa training scripts
+├── gptoss/                          # gptoss-20b training scripts
+├── deberta/                         # DeBERTaV3 training scripts
 ├── delta_tfidf_hate_speech_model/   # Trained Delta TF-IDF model
 ├── distilbert_hate_speech_model/    # Trained DistilBERT model
 └── roberta_hate_speech_model/       # Trained RoBERTa model
@@ -42,6 +44,12 @@ Each model has dedicated training scripts located in their respective folders:
 
 - **RoBERTa**: `src/roberta/`
   - Contains RoBERTa training scripts with various enhancement techniques
+
+- **gptoss-20b**: `src/gptoss/`
+  - Contains gptoss training scripts with various enhancement techniques
+
+- **DeBERTaV3**: `src/deberta/`
+  - Contains deberta training scripts with various enhancement techniques
 
 ## Demo Application
 
@@ -123,6 +131,9 @@ python src/distilbert/train_distilbert\ \(SMOTE\).py
 
 # Example: Train Delta TF-IDF with TDA
 python src/delta_tfidf/delta_tfidf\ \(TDA\).py
+
+# Example: Train gptoss with SMOTE, Weighted Loss and POS-Tagging
+python src/gptoss/gptoss.py --dataset data.csv --model_output output_folder --smote --weighted_loss --pos
 ```
 
 #### HPC Training with SLURM
