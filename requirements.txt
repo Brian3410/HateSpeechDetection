@@ -1,0 +1,47 @@
+# Core ML/DL frameworks
+torch
+transformers==4.38.0
+accelerate==0.28.0
+
+# Data processing
+pandas
+numpy
+scikit-learn
+scipy
+imbalanced-learn
+
+# NLP libraries
+nltk
+spacy
+sentence-transformers
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Web/API frameworks
+streamlit
+fastapi
+uvicorn
+
+# Development tools
+jupyter
+notebook
+ipykernel
+python-dotenv
+
+# Model utilities
+datasets
+peft
+joblib
+Pillow
+
+# Monitoring
+wandb
+
+# Optional
+langchain
+langchain-huggingface
+torchtext
+torchmetrics
